@@ -54,7 +54,7 @@ var db_pwd  = "cmpe281" ;
 var db_name = "test" ;
 */
 
-var db_host = (process.env.mongodb_host || "localhost" ) ;
+var db_host = (process.env.mongodb_host || "https://7b9f19c482cd4ae891ebc0c41e81db9b.vfs.cloud9.us-east-2.amazonaws.com" ) ;
 var db_port = (process.env.mongodb_port || "27017" ) ;
 var db_user = (process.env.mongodb_user || "cmpe281" ) ;
 var db_pwd  = (process.env.mongodb_pwd  || "cmpe281" ) ;
